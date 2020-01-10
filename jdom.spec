@@ -30,7 +30,7 @@
 
 Name:           jdom
 Version:        1.1.3
-Release:        5%{?dist}
+Release:        6%{?dist}
 Epoch:          0
 Summary:        Java alternative to DOM and SAX
 License:        ASL 1.1
@@ -123,6 +123,9 @@ cp %{SOURCE1} $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-jdom.pom
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.1.3-6
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.1.3-5
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
